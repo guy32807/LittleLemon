@@ -1,5 +1,5 @@
-import Nav from "./components/Nav";
-import logo from '../src/assets/Logo.svg'
+import Nav from "./Nav";
+import logo from '../assets/Logo.svg'
 
 const Header = () =>
 {

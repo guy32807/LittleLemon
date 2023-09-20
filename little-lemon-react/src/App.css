@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+h1{
+  display: "flex";
+  justify-content: "center";
+  align-items: "right";
+  height: "100vh";
+  color: '#495E57';
+}
+

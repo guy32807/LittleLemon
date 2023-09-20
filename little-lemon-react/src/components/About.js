@@ -1,15 +1,24 @@
+import { useEffect } from "react";
 
-const About = () => {
+const About = () =>
+{
+	useEffect(() =>
+	{
+		document.title = "About Us";
+	}, []);
 	return (
-		<div
-			style={{
-				display: "flex",
-				justifyContent: "center",
-				alignItems: "right",
-				height: "100vh",
-				color: "#495E57"
-			}}
-		><h1>About us</h1></div>
+		<>
+			<h1
+				style={{
+					display: "flex",
+					justifyContent: "center",
+					alignItems: "right",
+					color: "#495E57",
+				}}
+			>
+				About us
+			</h1>
+		</>
 	);
 };
 export default About;
