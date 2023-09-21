@@ -1,0 +1,4 @@
+CREATE PROCEDURE CancelOrder()
+BEGIN
+DELETE FROM orders WHERE OrderID = @OrderID;
+END
