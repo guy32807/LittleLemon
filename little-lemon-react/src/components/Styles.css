@@ -1,0 +1,21 @@
+.hone {
+    display: "flex";
+    justify-content: "center";
+    align-items: "right";
+    height: "100vh";
+    color: '#495E57';
+  }
+
+  .form {
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+
+  .form-input {
+    width: 100%;
+  }
+
+  .form-button {
+    background-color: #000;
+    color: #fff;
+  }
